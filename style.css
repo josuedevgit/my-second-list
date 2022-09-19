@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body * {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 160%;
+}
+
+body {
+    background-image: url(./img/estrelas.png);
+    background-position: top center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #121214;
+}
+
+header {
+    margin-top: 32px;
+    height: calc(120px + 32px);
+}
+
+header div {
+    width: 120px;
+    margin: auto;
+    background-image: linear-gradient(30deg, #C91842 0%, #5CC2E2 100%);
+    border-radius: 50%;
+    
+    display: flex;
+    padding: 4px;
+
+    transition: transform .3s;
+
+    animation: fromTop .7s backwards;
+    animation-delay: .2s;
+}
+
+header div:hover {
+    transform: scale(1.1);
+}
+
+@keyframes fromTop {
+    from {
+        opacity: 0;
+        transform: translateX(-30px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+
+header img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+main {
+    max-width: 520px;
+    width: 90%;
+    margin: 32px auto;
+
+    display: grid;
+    gap: 24px;
+}
+
+section {
+    color: #FFFFFF;
+    background-image: linear-gradient(90deg, #C91842 0%, #5CC2E2 100%);
+    border-radius: 10px;
+    padding-top: 4px;
+
+}
+
+section ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+
+    padding-top: 24px;
+}
+
+section ul li {
+    transition: transform .3s;
+}
+
+section ul li:hover {
+    transform: scale(1.1);
+}
+
+section div {
+    background: #262629;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+}
+
+section p {
+    letter-spacing: -0.18px;
+    color: #C1C1C1;
+}
+
+.moovies-list img {
+    width: 100px;
+    border: 1px solid #555555;
+    border-radius: 8px;
+}
+
+.series-list img {
+    width: 100px;
+    border: 1px solid #555555;
+    border-radius: 8px;
+}
+
+ul {
+    list-style: none;
+}
+
+.moovies {
+    animation: fromRight .7s backwards;
+}
+
+
+.social {
+    animation: fromRight .7s .4s backwards;
+}
+
+.peacemaker {
+    animation: fromRight .7s .6s backwards;
+}
+
+.the-boys {
+    animation: fromRight .7s .4s backwards;
+}
+
+.rings-of-power {
+    animation: fromRight .7s .2s backwards;
+}
+
+.moon-knight {
+    animation: fromRight .7s backwards;
+}
+
+@keyframes fromRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.series {
+    animation: fromLeft .7s .2s backwards;
+}
+
+.batman {
+    animation: fromLeft .7s backwards;
+}
+
+.nope {
+    animation: fromLeft .7s .2s backwards;
+}
+
+.uncharted {
+    animation: fromLeft .7s .4s backwards;
+}
+
+.samaritan {
+    animation: fromLeft .7s .6s backwards;
+}
+
+.twitter {
+    animation: fromLeft .7s backwards;
+}
+
+.instagram {
+    animation: fromLeft .7s .2s backwards;
+}
+
+.youtube {
+    animation: fromLeft .7s .4s backwards;
+}
+
+.linkedin {
+    animation: fromLeft .7s .6s backwards;
+}
+
+@keyframes fromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
