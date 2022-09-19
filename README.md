@@ -4,7 +4,7 @@
 
 >## Meus Filmes e Séries de 2022!
 
-# [🔗 Clique aqui para acessar!](josuedevgit.github.io/my-second-list/)
+# [🔗 Clique aqui para acessar!](https://josuedevgit.github.io/my-second-list)
 
 
 >### 🛠 Tecnologias
